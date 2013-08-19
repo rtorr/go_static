@@ -24,6 +24,13 @@ func TestGenerateFileSystemAndMetaDataApi(t *testing.T) {
 	assert.True(t, false, should_be_true)
 }
 
+func TestSupportFragmentHTML(t *testing.T) {
+	// Goal: Assume we support html fragment files
+	// which could be useful for signle page type apps
+	// Point: These will be added to the API 
+	assert.True(t, false, should_be_true)
+}
+
 func TestTakeFilesAndBuildHtml(t *testing.T) {
 	// Goal: Take content files and generate html
 	assert.True(t, false, should_be_true)
